@@ -10,5 +10,7 @@ public class TerminalExecutor {
     public static void ideaTerminal(@NotNull Project project, @NotNull String[] command,
                                     @NotNull String classPath, @NotNull String workingDirectory,
                                     boolean passParentEnvs, @NotNull Map<String, String> env){
+
+
     }
 }
