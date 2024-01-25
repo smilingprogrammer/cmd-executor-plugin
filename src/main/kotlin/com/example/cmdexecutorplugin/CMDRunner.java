@@ -24,7 +24,7 @@ public class CMDRunner extends GenericProgramRunner<RunnerSettings> {
     @Override
     public boolean canRun(@NotNull String executorId, @NotNull RunProfile runProfile) {
         return executorId.equals(CMDExecutor.id) &&
-                (runProfile instanceof ApplicationConfiguration )
+                (runProfile instanceof ApplicationConfiguration );
     }
 
     private boolean isTerminalPluginEnabled(){

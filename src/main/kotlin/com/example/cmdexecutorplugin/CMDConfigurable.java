@@ -79,13 +79,13 @@ public class CMDConfigurable implements Configurable {
 
     @Override
     public boolean isModified() {
-        boolean simpleModeified = !toAddVmOptions.getText().equals(myState.toAddVmOptions)
+        boolean simpleModified = !toAddVmOptions.getText().equals(myState.toAddVmOptions)
                 || !toRemoveVmOptions.getText().equals(myState.toRemoveVmOptions)
                 || !toAddProgramsOptions.getText().equals(myState.toAddProgramOptions)
                 || !toRemoveProgramOptions.getText().equals(myState.toRemoveProgramOptions)
                 || runInTerminal.isSelected() != myState.isRunInsideTerminal;
 
-        if (simpleModeified)
+        if (simpleModified)
             return true;
 
         Integer currentValue = findPort.isSelected() ? portSpinnerModel.getNumber().intValue() : null;
