@@ -12,7 +12,6 @@ Also, it provides ability to modify a program and VM options on-the-fly before e
 
 * Raising any issues you find using CMD Executor
 * 1Fixing issues by opening Pull 
-* 
 * Improving documentation
 * Talking about CMD-Executor
 
