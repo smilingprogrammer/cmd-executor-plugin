@@ -8,14 +8,14 @@ This document defines project governance for the CMDExecutor project.
 
 Aside me, there are no maintainers yet. However, for future purposes;
 * The maintainers will be responsible for the overall development of the whole CMD-Executor project and all its components.
-* The maintainers will be identified in the [`MAINTAINERS`](MAINTAINERS) file.
+* The maintainers will be identified in the [`MAINTAINERS`][MAINTAINERS] file.
 
 #### Changes in Maintainership
 
 New maintainers will be proposed by an existing maintainer and are elected by a ⅔ majority maintainers vote.
 Maintainers will be removed by a ⅔ majority maintainers vote.
 
-#### Github Project Administration
+#### GitHub Project Administration
 
 Maintainers will be added to the collaborators list of the CMD-Executor repository with "Write" access.
 After 6 months a maintainer will be given "Admin" access to the CMD-Executor repository.
@@ -24,7 +24,7 @@ After 6 months a maintainer will be given "Admin" access to the CMD-Executor rep
 
 The component owners will be responsible for development of a specific subproject or component within CMD-Executor.
 Such components might be represented by a separate directory within the CMD-Executor repository as a subdirectory in a GitHub repository (e.g. `./documentation/` in `CMD-Executor-Plugin`).
-The components will be identified in the [`COMPONENT-OWNERS`](COMPONENT-OWNERS) file in this repository which also includes the component for which they are responsible.
+The components will be identified in the [`COMPONENT-OWNERS`][COMPONENT-OWNERS] file in this repository which also includes the component for which they are responsible.
 
 By definition, every maintainer is also an owner for all components and does not have to be mentioned in the `OWNERS` list.
 
@@ -33,7 +33,7 @@ By definition, every maintainer is also an owner for all components and does not
 New component owners can be proposed by any maintainer and are elected by a ⅔ majority maintainers vote.
 Component owners can be removed by a ⅔ majority maintainers vote.
 
-#### Github Project Administration
+#### GitHub Project Administration
 
 Owners of components which have their own GitHub repository will get "Write" rights for given GitHub repository and will be able to merge approved PRs.
 Owners will not get "Admin" rights on any CMD-Executor GitHub repositories.
@@ -56,7 +56,7 @@ If the PR author is a maintainer or an owner of given component, this counts as 
 
 ### Proposals
 
-Proposals can be opened against the [proposals repository]().
+Proposals can be opened against the [repository issues][issues].
 Proposals should cover any changes to the CMD-Executor project which might significantly impact its users or the project direction.
 
 Voting about proposals is using +1, 0, -1 votes and their fractions, where:
@@ -79,9 +79,13 @@ The proposal PR should be opened for at least 3 days to give everyone enough tim
 
 ### Changes in Governance
 
-All changes in Governance require a ⅔ majority maintainers vote.
+All changes in Governance will require a ⅔ majority maintainers vote.
 
 ### Other Changes
 
 Unless specified above, all other changes to the project require a ⅔ majority maintainers vote.
 Additionally, any maintainer may request that any change require a ⅔ majority maintainers vote.
+
+[MAINTAINERS]: MAINTAINERS.md
+[COMPONENT-OWNERS]: COMPONENT-OWNERS.md
+[issues]: https://github.com/smilingprogrammer/cmd-executor-plugin/issues
